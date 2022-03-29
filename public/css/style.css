@@ -1,0 +1,60 @@
+body,header, section, footer,header section, nav, section#section {
+    display: grid;
+}
+#newsletter{
+    grid-template-columns: 1fr 11fr;
+    align-items: center;
+    gap: 25em;
+    background-color: #944d9e;
+    color: white;
+    padding: 0.5em 0;
+}
+nav{
+    grid-template-columns: 2fr 8fr 2fr;
+}
+#newsletter > div.logo > img{
+    width: 1em;
+}
+body > header > nav > div.logo > img{
+    width: 5em;
+    float: right;
+}
+.menu, #contenu ,section#section, footer p {
+    margin: 0 auto;
+}
+.menu > ul {
+    list-style: none;
+}
+.menu > ul li {
+    display: inline;
+    padding: 0 1em;
+}
+a{
+    text-decoration: none;
+}
+h1,h2{
+    display: flex;
+    justify-content: center;
+}
+#contenu{
+    width: 70%;
+}
+body > footer > img {
+    width: 7em;
+    margin: 2em auto;
+}
+section#section {
+    width: 50%;
+    grid-template-columns: repeat(3,1fr);
+}
+footer{
+    background-color: grey;
+}
+body > header > nav > div.logo {
+    border-right: 1px solid black;
+    padding: 0 1em;
+}
+#coworking{
+    border-left: 1px solid black;
+    padding: 0 1em;
+}
